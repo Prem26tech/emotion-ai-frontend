@@ -126,7 +126,7 @@
             resBox.classList.remove("show");
 
             try {
-                let response = await fetch("http://localhost:3000/analyze", {
+                let response = await fetch("https://crawliest-jacquie-semiclerically.ngrok-free.dev/analyze", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ text: text })
@@ -146,3 +146,4 @@
 
 </body>
 </html>
+
